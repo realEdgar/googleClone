@@ -1,0 +1,26 @@
+.container {
+    grid-template-rows: 70px 500px 150px;
+}
+main {
+    grid-template-rows: 300px 60px 60px;
+}
+.main-logo img {
+    width: 200px;
+}
+.main-insight-container {
+    width: 340px;
+    height: 40px;
+}
+
+.main-insight-container input {
+    width: 290px;
+    height: 30px;
+}
+.buttons {
+    align-items: center;
+}
+.button-left,
+.button-right {
+    width: 120px;
+    font-size: 1rem;
+}

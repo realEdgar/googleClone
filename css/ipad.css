@@ -1,0 +1,48 @@
+.container {
+    grid-template-rows: 10vh 80vh 10vh;
+}
+header {
+    justify-content: flex-end;
+}
+main {
+    grid-template-rows: 180px 60px 60px;
+}
+.main-logo img {
+    width: 250px;
+}
+.main-insight-container {
+    width: 70%;
+    height: 40px;
+}
+.main-insight-container .icon-lupa {
+    width: 20px;
+    height: 20px;
+}
+.main-insight-container input {
+    width: 88%;
+}
+.main-insight-container .icon-micro {
+    width: 15px;
+    height: 15px;
+}
+.button-left,
+.button-right {
+    width: 160px;
+    height: 40px;
+    margin: 0 15px;
+    font-size: 1.4rem;
+}
+footer {
+    grid-template: 40px 55px / 1fr;
+}
+.country p {
+    font-size: 1.2rem;
+}
+.footer-menu-left ul,
+.footer-menu-right ul {
+    display: flex;
+}
+.footer-menu-left ul li a,
+.footer-menu-right ul li a {
+    font-size: 1.2rem;
+}

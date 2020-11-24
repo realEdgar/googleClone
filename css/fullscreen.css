@@ -1,0 +1,12 @@
+.container {
+    grid-template-rows: 10vh 80vh 15vh;
+}
+main {
+    grid-template-rows: 150px 60px 60px;
+}
+.main-insight-container {
+    width: 60%;
+}
+.main-insight-container input {
+    width: 92%;
+}
